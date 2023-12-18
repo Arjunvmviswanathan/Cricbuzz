@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+.headcontainer{
+    background-color: green;
+    padding: 10px;
+    height: 10vmin;
+    display: flex;
+}
+.logo{
+    width: 100px;
+    padding: 10px;
+}
+.headnav ul{
+    width: 100%;
+    padding: 13px;
+    display: flex;
+    float: left;
+   list-style: none;
+}
+.headnav .nodrop{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+.dropdown-content a{
+    color: black;
+}
+.headnav li :hover{
+    background-color: rgb(8, 90, 8);
+   padding: 20px;
+}
+.navi{
+    display: flex;
+}
+.navi img{
+    width: 13px;
+}
+.headnav img{
+    width: 13px;
+}
+#cric{
+    border-radius: 30px;
+    margin-top: 5px;
+    height: 40px;
+    width: 120px;
+}
+#cric:hover{
+    background-color: maroon;
+    color: white;
+}
+.dropbtn {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: right;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: green;}
+.searchlens{
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 50px;
+    height: 30px;
+}
+.head {
+    background-color: black;
+    display: flex;
+}
+.headnav1 ul{
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    float: left;
+   list-style: none;
+}
+.headnav1 ul a:hover{
+    color:magenta;
+}
+.headnav1 li{
+    padding-left: 20px;
+}
+.headnav1 a{
+    text-decoration: none;
+    color: white;
+}
+.schedule{
+    width: 23%;
+    height: 150px;
+    background-color: rgb(240, 233, 233);
+    border-style: ridge;
+    cursor: pointer;
+}
+.schedule h5{
+    margin-left: 5px;
+}
+.schedule .zim{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.schedule .ire{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.schedule img{
+    margin-right: 5px;
+}
+.sched{
+    display: flex;
+    justify-content: space-evenly;
+}
+.latest{
+    width: 18%;
+    margin-top: 15px;
+    height: 1030px;
+    background-color: rgb(240, 233, 233);
+    padding: 20px;
+}
+.latest h3{
+    color: green;
+}
+.latest ul {
+    list-style: none;
+}
+.latest ul a{
+    text-decoration: none;
+}
+.latest ul a:hover{
+    color: red;
+}
+.latest2{
+    width: 100%;
+    height: 1140px;
+    background-color: rgb(240, 233, 233);
+    margin-left: -20px;
+    padding: 20px;
+}
+.mainbody{
+    display: flex;
+}
+.feeds{
+    width: 45%;
+    height: 2750px;
+    background-color: rgb(240, 233, 233);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.teng{
+    display: flex;
+}
+.teng p{
+    padding-left: 40px;
+}
+.tind{
+    display: flex;
+}
+.tind p{
+   padding-left: 40px;
+    
+}
+.indiaw{
+    background-color: rgb(241, 218, 218);
+    height: 100px;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.indiaw:hover{
+    background-color: white;
+}
+.feeds a{
+    text-decoration: none;
+    color: black;
+}
+.feeds a:hover{
+    text-decoration: underline;
+}
+.videos{
+    background-color: rgb(240, 233, 233);
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: 1230px;
+}
+.videos h3{
+    color: green;
+}
+.vdo{
+    position: relative;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.vdo img{
+    width: 100%;
+}
+.vdo .play{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  text-align: center;
+}
+.vdo .play:hover {
+    background-color:maroon;
+    color: white;
+  }
+  .footer{
+    background-color: rgb(78, 74, 74);
+    width: 100%;
+    height: 280px;
+    margin-top: 30px;
+    display: flex;
+  }
+  .footer .logo{
+    margin-top: 35px;
+    margin-left: 70px;
+  }
+  .footer .logo img{
+        width: 100px;
+  }
+  .mobile{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: white;
+   
+  }
+  .mobile a{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  .mobile a:hover{
+    color: magenta;
+  } 
+  .follow{
+    margin-top: 50px;
+    margin-left: 70px;
+    color: white;
+  }
+  .follow a{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  .follow a:hover{
+    color: magenta;
+  } 
+  .footer .company{
+    margin-top: 50px;
+    margin-left: 70px;
+    color: white;
+  }
+  .company a{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  .company a:hover{
+    color: magenta;
+  } 
