@@ -305,13 +305,27 @@ position: absolute;
   .company a:hover{
     color: magenta;
   } 
-@media (max-width:480px){
+  
+@media (max-width:410px){
    
+    .body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
     .main{
         width: 220%;
     }
-    .headnav li{
-        font-size: small;
+    .headcontainer .logo{
+        width: 8%;
+    }
+   .searchlens{
+    display: none;
+   }
+    .headnav li a{
+        font-size: xx-small;
     }
     #cric{
         width: 10%;
@@ -323,16 +337,102 @@ position: absolute;
    .schedule h5{
     font-size: x-small;
    }
+   .mainbody{
+    position: relative;
+   }
    .latest{
     width: 30%;
-    height: 3700px;
+   }
+   .latest2{
+    height: 100%;
    }
    .latest li,p{
-    font-size: x-large;
+    font-size: x-small;
+   }
+   .latest2 img{
+    display: none;
    }
    .feeds{
     width: 150%;
-    height: 3000px;
+    height: 3700px;
+   }
+   .feeds p{
+    font-size: large;
+   }
+   .videos a,p{
+    font-size: x-small;
+   }
+   .indiaw{
+    display: none;
+   }
+   .feeds img{
+    width: 100%;
+   }
+   .footer{
+    width: 100%;
+    height: 300%;
+    display: grid;
+    text-align: center;
+   }
+   .footer .logo{
+    margin-left: 30%;
+   }
+    .footer .logo img{
+        width: 300px;
+   }
+   .mobile{
+    font-size: x-large;
+   }
+   .follow{
+    font-size: x-large;
+   }
+   .company{
+    font-size: x-large;
+    margin-bottom: 30px;
+   }
+}
+  @media (max-width:480px){
+   
+    .main{
+        width: 220%;
+    }
+    .headnav li{
+        font-size: x-small;
+    }
+    #cric{
+        width: 10%;
+        border-radius: 50px;
+    }
+    .headnav1 li{
+        font-size: xx-small;
+    }
+   .schedule h5{
+    font-size: x-small;
+   }
+   .mainbody{
+    position: relative;
+   }
+   .latest{
+    width: 30%;
+   }
+   .latest2{
+    height: 100%;
+   }
+   .latest li,p{
+    font-size: x-small;
+   }
+   .latest2 img{
+    display: none;
+   }
+   .feeds{
+    width: 150%;
+    height: 3700px;
+   }
+   .feeds p{
+    font-size: large;
+   }
+   .videos a,p{
+    font-size: x-small;
    }
    .indiaw{
     display: none;
@@ -345,7 +445,6 @@ position: absolute;
     height: 300%;
     display: grid;
     text-align: center;
-    position: relative;
    }
    .footer .logo{
     margin-left: 30%;
@@ -354,13 +453,13 @@ position: absolute;
         width: 300px;
    }
    .mobile{
-    font-size: xx-large;
+    font-size: x-large;
    }
    .follow{
-    font-size: xx-large;
+    font-size: x-large;
    }
    .company{
-    font-size: xx-large;
+    font-size: x-large;
     margin-bottom: 30px;
    }
 }
@@ -368,6 +467,12 @@ position: absolute;
    
     .main{
         width: 200%;
+    }
+    .headcontainer .logo{
+        width: 15%;
+    }
+    .headnav li a{
+        font-size: small;
     }
     .footer{
         width: 210%;
@@ -391,6 +496,9 @@ position: absolute;
    
     .main{
         width: 200%;
+    }
+    .headcontainer .logo{
+        width: 15%;
     }
     .footer{
         width: 210%;
